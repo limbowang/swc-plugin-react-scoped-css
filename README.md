@@ -1,0 +1,1 @@
+# swc-plugin-react-scoped-css
