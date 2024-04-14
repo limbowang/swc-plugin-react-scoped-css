@@ -18,7 +18,7 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       swc-plugin-react-scoped-css:
-        specifier: workspace:^
+        specifier: ^1.0.0-1.0.0-alpah.1.0
         version: link:../swc-plugin-react-scoped-css
     devDependencies:
       '@modern-js/module-tools':

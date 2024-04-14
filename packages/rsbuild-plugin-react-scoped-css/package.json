@@ -1,6 +1,6 @@
 {
   "name": "rsbuild-plugin-react-scoped-css",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-1.0.0-alpah.1.0",
   "description": "rsbuild plugin for react scoped css",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -40,7 +40,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "scoped-css-loader": "^1.0.0",
-    "swc-plugin-react-scoped-css": "^1.0.0-alpha.0"
+    "swc-plugin-react-scoped-css": "^1.0.0-1.0.0-alpah.1.0"
   },
   "gitHead": "f8678dbbf9e60ac452369c0fc986ffdc58408037"
 }
