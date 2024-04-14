@@ -21,7 +21,7 @@
   "preferUnplugged": true,
   "publishConfig": {
     "access": "public",
-    "provenance": true,
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "gitHead": "f8678dbbf9e60ac452369c0fc986ffdc58408037"
 }
