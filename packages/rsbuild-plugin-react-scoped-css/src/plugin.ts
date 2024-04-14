@@ -1,4 +1,5 @@
 import { mergeRsbuildConfig, type RsbuildPlugin } from '@rsbuild/core';
+import path from 'path';
 
 export const pluginReactScopedCss = (): RsbuildPlugin => ({
   name: 'scope:react-scoped-css',
@@ -12,7 +13,10 @@ export const pluginReactScopedCss = (): RsbuildPlugin => ({
               for (let oneOf of oneOfs) {
                 if (oneOf.type === 'css' && Array.isArray(oneOf.use)) {
                   oneOf.use.unshift({
-                    loader: 'scoped-css-loader',
+                    loader: path.resolve(
+                      __dirname,
+                      "../node_modules/scoped-css-loader"
+                    ),
                   });
                 }
               }
@@ -30,7 +34,15 @@ export const pluginReactScopedCss = (): RsbuildPlugin => ({
           swc: {
             jsc: {
               experimental: {
-                plugins: [['swc-plugin-react-scoped-css', {}]],
+                plugins: [
+                  [
+                    path.resolve(
+                      __dirname,
+                      "../node_modules/swc-plugin-react-scoped-css"
+                    ),
+                    {},
+                  ],
+                ],
               },
             },
           },
