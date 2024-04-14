@@ -1,0 +1,45 @@
+{
+  "name": "rsbuild-plugin-react-scoped-css",
+  "version": "1.0.0",
+  "description": "rsbuild plugin for react scoped css",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "rsbuild-plugin",
+    "react-scoped-css"
+  ],
+  "repository": {
+    "url": "https://github.com/limbowang/swc-plugin-react-scoped-css"
+  },
+  "author": "limbowang",
+  "type": "commonjs",
+  "scripts": {
+    "build": "modern build",
+    "dev": "modern build --watch"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "devDependencies": {
+    "@modern-js/module-tools": "^2.48.5",
+    "@rsbuild/core": "^0.6.1",
+    "typescript": "^5.4.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "scoped-css-loader": "^1.0.0",
+    "swc-plugin-react-scoped-css": "workspace:^"
+  }
+}
