@@ -18,7 +18,8 @@
   "type": "commonjs",
   "scripts": {
     "build": "modern build",
-    "dev": "modern build --watch"
+    "dev": "modern build --watch",
+    "prepublishOnly": "modern build"
   },
   "exports": {
     ".": {
