@@ -9,7 +9,7 @@ import { pluginReactScopedCss } from 'rsbuild-plugin-react-scoped-css';
 export default defineConfig({
   plugins: [
     pluginReactScopedCss({
-      // include: /\.scoped\.(sc|sa|le|css)$/,
+      // include: /\.scoped\.(sc|sa|le|c)ss$/,
       // hashSeed: ''
     })
   ]
