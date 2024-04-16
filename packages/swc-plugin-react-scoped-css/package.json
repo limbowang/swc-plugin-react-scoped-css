@@ -1,6 +1,6 @@
 {
   "name": "swc-plugin-react-scoped-css",
-  "version": "1.0.1-alpha.1",
+  "version": "1.0.1",
   "description": "swc plugin for react scoped css",
   "author": "limbowang",
   "license": "Apache-2.0",
