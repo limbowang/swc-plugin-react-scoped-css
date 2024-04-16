@@ -21,7 +21,7 @@ pub struct Config {
 }
 
 fn default_include() -> Regex {
-    Regex::new(r".scoped\.(sc|sa|c)ss$").unwrap()
+    Regex::new(r".scoped\.(le|sc|sa|c)ss$").unwrap()
 }
 
 impl Default for Config {

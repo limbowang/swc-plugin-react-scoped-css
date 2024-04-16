@@ -11,7 +11,10 @@ An react-scoped-css implementation for swc.
 {
     "jsc": {
         "experimental": {
-            "plugins": [["swc-plugin-react-scoped-css", {}]]
+            "plugins": [["swc-plugin-react-scoped-css", {
+                // include: "\\.scoped\\.(sc|sa|le|css)$",
+                // hashSeed: ''
+            }]]
         }
     }
 }
