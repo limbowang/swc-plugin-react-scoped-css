@@ -19,5 +19,14 @@ pub fn process_transform(program: Program, data: TransformPluginProgramMetadata)
         Some(s) => FileName::Real(s.into()),
         None => FileName::Anon,
     };
-    program.fold_with(&mut react_scoped_css(config, file_name.to_string()))
+    let current_dir = std::env::current_dir().unwrap();
+    let file_path = current_dir.join(file_name.to_string());
+    let relative_path = file_path
+        .strip_prefix(&current_dir)
+        .unwrap()
+        .to_str()
+        .unwrap()
+        .to_string();
+
+    program.fold_with(&mut react_scoped_css(config, relative_path.clone()))
 }

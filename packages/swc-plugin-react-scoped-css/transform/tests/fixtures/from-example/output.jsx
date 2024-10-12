@@ -1,17 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import styles from "./Content.scoped.scss?scopeId=e11877f5";
+import styles from "./Content.scoped.scss?scopeId=4cfc5488";
 import Grid from './Grid';
 import GridForwardProps from './GridForwardProps';
 const Text = styled.div`
   color: #666;
 `;
 const FromExample = (props)=>{
-    return <div className="content" data-v-e11877f5="">
+    return <div className="content" data-v-4cfc5488="">
 
-      <h3 data-v-e11877f5="">Styling html tags</h3>
+      <h3 data-v-4cfc5488="">Styling html tags</h3>
 
-      <p data-v-e11877f5="">p tag with style</p>
+      <p data-v-4cfc5488="">p tag with style</p>
 
 
 
@@ -27,23 +27,23 @@ const FromExample = (props)=>{
 
 
 
-      <h3 data-v-e11877f5="">Using classes</h3>
+      <h3 data-v-4cfc5488="">Using classes</h3>
 
-      <div className="grid" data-v-e11877f5=""/>
+      <div className="grid" data-v-4cfc5488=""/>
 
-      <div className="grid" data-v-e11877f5=""/>
-
-
-
-      <h3 data-v-e11877f5="">Styling child components with css modules</h3>
-
-      <Grid className={styles.grid} data-v-e11877f5=""/>
-
-      <Grid className={styles.grid} data-v-e11877f5=""/>
+      <div className="grid" data-v-4cfc5488=""/>
 
 
 
-      <h3 data-v-e11877f5="">
+      <h3 data-v-4cfc5488="">Styling child components with css modules</h3>
+
+      <Grid className={styles.grid} data-v-4cfc5488=""/>
+
+      <Grid className={styles.grid} data-v-4cfc5488=""/>
+
+
+
+      <h3 data-v-4cfc5488="">
 
         Styling child components which forward data-v attributes to its root
 
@@ -51,15 +51,15 @@ const FromExample = (props)=>{
 
       </h3>
 
-      <GridForwardProps className="content-grid" data-v-e11877f5=""/>
+      <GridForwardProps className="content-grid" data-v-4cfc5488=""/>
 
-      <GridForwardProps className="content-grid" data-v-e11877f5=""/>
+      <GridForwardProps className="content-grid" data-v-4cfc5488=""/>
 
 
 
-      <h3 data-v-e11877f5="">Styling with styled-components</h3>
+      <h3 data-v-4cfc5488="">Styling with styled-components</h3>
 
-      <Text className="text" data-v-e11877f5="">Some content in styled-components</Text>
+      <Text className="text" data-v-4cfc5488="">Some content in styled-components</Text>
 
     </div>;
 };
