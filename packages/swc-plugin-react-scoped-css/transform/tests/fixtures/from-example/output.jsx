@@ -17,9 +17,9 @@ const FromExample = (props)=>{
 
       <React.Fragment>
 
-        <div>
+        <div data-v-4cfc5488="">
 
-          <p>content wrapped with React Fragment should be fine</p>
+          <p data-v-4cfc5488="">content wrapped with React Fragment should be fine</p>
 
         </div>
 

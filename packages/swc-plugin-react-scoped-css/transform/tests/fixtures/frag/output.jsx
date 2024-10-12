@@ -5,7 +5,7 @@ const Frag = ()=>{
 
       <React.Fragment>
 
-        <div className="test-frag"></div>
+        <div className="test-frag" data-v-848cb8dd=""></div>
 
       </React.Fragment>
 
