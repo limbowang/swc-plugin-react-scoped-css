@@ -66,6 +66,7 @@ impl VisitMut for ReactScopedCssVistor {
         if self.has_scoped_css {
             match element.opening.name {
                 swc_core::ecma::ast::JSXElementName::JSXMemberExpr(ref member_expr) => {
+                    element.visit_mut_children_with(self);
                     return;
                 }
                 _ => {}

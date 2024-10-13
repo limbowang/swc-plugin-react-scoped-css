@@ -1,17 +1,17 @@
 import React from 'react';
-import "./frag.scoped.css?scopeId=b9d0f0e5";
+import "./frag.scoped.css?scopeId=848cb8dd";
 const Frag = ()=>{
-    return <div data-v-b9d0f0e5="">
+    return <div data-v-848cb8dd="">
 
       <React.Fragment>
 
-        <div className="test-frag"></div>
+        <div className="test-frag" data-v-848cb8dd=""></div>
 
       </React.Fragment>
 
       <>
 
-        <div data-v-b9d0f0e5="">text</div>
+        <div data-v-848cb8dd="">text</div>
 
       </>
 
